@@ -1,10 +1,6 @@
 {
-  "projects": [
-    {
-      "title": "API da Maria Eduarda 💖",
-      "openapi": {
-        "url": "http://localhost:3000/api-docs/swagger.json"
-      }
-    }
-  ]
+  "openapi": {
+    "source": "url",
+    "url": "http://localhost:3000/api-docs/swagger.json"
+  }
 }
